@@ -1,0 +1,5 @@
+-- Project Name: Notscetis - Hub
+local ClientMode = Game:GetService("Players")
+local CheckName = "Notscetis"
+local AddToolId = Instance.new("Tool")
+AddToolId.Parent = ClientMode[CheckName].Backpack
